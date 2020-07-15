@@ -40,12 +40,12 @@ def get_env_or_raise(key):
 # 应用 ID
 APP_CODE = 'bk2'
 # 应用用于调用云 API 的 Secret
-SECRET_KEY = ''
+SECRET_KEY = '142fb53f-0601-4d4a-855e-ac36668b2dc4'
 
 # SaaS运行版本，如非必要请勿修改
 RUN_VER = 'open'
 # 蓝鲸SaaS平台URL，例如 http://paas.bking.com
-BK_URL = None
+BK_URL = https://paas-wangkai.bk.com:443
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(
